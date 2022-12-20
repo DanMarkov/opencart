@@ -1,0 +1,33 @@
+<div id="search" class="d-flex input-group mb-3">
+	<input type="text" name="search" value="{{ search }}" placeholder="{{ text_search }}" class="form-control me-2 search_input" aria-label="Search">
+	{# <input class="btn btn-light btn-lg" aria-label="Search"> #}
+	<button type="button" data-lang="{{ language }}" class="btn btn-light btn-lg btn-success">SEARCH!</button>
+	{# <button type="button" data-lang="{{ language }}" class="btn btn-light btn-lg"><i class="fa-solid fa-magnifying-glass"></i></button> #}
+</div>
+
+
+{# <form class="d-flex" role="search">
+	<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+	<button class="btn btn-outline-success" type="submit">Search</button>
+</form> #}
+
+<style>
+	.btn-success {
+		color: #2ecc71;
+		background-color: transparent;
+		background-image: none;
+		border-color: #2ecc71;
+		border-radius: 10px;
+		border: .2rem solid #2ecc71;
+	}
+	
+	.search_input {
+		height: 100%;
+		background: transparent;
+		border: .2rem solid #2ecc71;
+		border-radius: 1rem;
+		outline: none;
+		padding: 0 1rem;
+		font-size: 2rem;
+	}
+</style>
